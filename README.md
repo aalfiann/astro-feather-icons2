@@ -1,18 +1,12 @@
-# Astro Feather Icons
+# Astro Feather Icons2
+
+> This is a fork of [astro-feather-icons](https://github.com/edazpotato/astro-feather-icons). Edaz seems won't come back to Github, so I continue his project.
 
 Feather is a collection of simply beautiful open source icons.
 Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency, and flexibility.
 
 ```shell
 npm install astro-feather-icons2
-```
-
-```shell
-pnpm i astro-feather-icons2
-```
-
-```shell
-yarn add astro-feather-icons2
 ```
 
 [GitHub](https://github.com/aalfiann/astro-feather-icons2) |
@@ -94,7 +88,7 @@ export interface Props {
 
 ## Acknowledgements
 
-This package is maintained by [Edazpotato](https://github.com/edazpotato) and
+This package is maintained by [aalfiann](https://github.com/aalfiann) and
 based on
 [svelte-feather-icons](https://github.com/dylanblokhuis/svelte-feather-icons) by
 [dylanblokhuis](https://github.com/dylanblokhuis).
