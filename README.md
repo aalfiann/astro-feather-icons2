@@ -1,6 +1,6 @@
 # Astro Feather Icons2
 
-> This is a fork of [astro-feather-icons](https://github.com/edazpotato/astro-feather-icons). Edaz seems won't come back to Github, so I continue his project.
+> This is a fork of [astro-feather-icons](https://github.com/edazpotato/astro-feather-icons). Edaz seems won't come back to Github, so I continue his project. This fork is fixing the error Typescripts.
 
 Feather is a collection of simply beautiful open source icons.
 Each icon is designed on a 24x24 grid with an emphasis on simplicity, consistency, and flexibility.
