@@ -1,14 +1,37 @@
 {
-	"name": "astro-feather-icons2-workspace",
-	"workspaces": [
-		"./packages/*"
-	],
-	"dependencies": {
-		"astro": "^4.3.0"
+	"name": "astro-feather-icons2",
+	"description": "Feather icons for Astro (based on svelte-feather-icons by dylanblokhuis)",
+	"version": "1.0.0",
+	"type": "module",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": "./dist/index.js",
+		"./*": "./dist/*.astro"
 	},
+	"files": [
+		"dist"
+	],
+	"license": "MIT",
+	"repository": "aalfiann/astro-feather-icons2",
+	"author": "M ABD AZIZ ALFIAN <aalfiann@gmail.com> (https://linktr.ee/aalfiann)",
+	"authors": [
+		"edazpotato <edazpotato@gmail.com> (https://edaz.codes/)",
+		"Cole Bemis <cole@colebemis.com> (http://colebemis.com)"
+	],
 	"scripts": {
-		"dev": "astro dev",
-		"build": "astro build",
-		"preview": "astro preview"
-	}
+		"check": "astro check",
+		"build": "node build.js",
+		"prepublishOnly": "npm run build"
+	},
+	"devDependencies": {
+		"feather-icons": "4.29.1"
+	},
+	"keywords": [
+		"astro",
+		"astro-component",
+		"feather",
+		"feather icons",
+		"icon",
+		"icons"
+	]
 }
